@@ -3,7 +3,7 @@ export const users = [
 		id: 0,
 		firstName: 'Mark',
 		lastName: 'Webber',
-		avatar: 'avatar-mark-webber.webp',
+		avatar: 'avatar-mark-webber',
 		notification: {
 			type: 'reacted to your recient post',
 			post: 'My first tournament today!',
@@ -17,7 +17,7 @@ export const users = [
 		id: 1,
 		firstName: 'Angela',
 		lastName: 'Gray',
-		avatar: 'avatar-angela-gray.webp',
+		avatar: 'avatar-angela-gray',
 		notification: {
 			type: 'followed you',
 			post: '',
@@ -31,7 +31,7 @@ export const users = [
 		id: 2,
 		firstName: 'Jacob',
 		lastName: 'Thompson',
-		avatar: 'avatar-jacob-thompson.webp',
+		avatar: 'avatar-jacob-thompson',
 		notification: {
 			type: 'has joined your group',
 			post: '',
@@ -45,7 +45,7 @@ export const users = [
 		id: 3,
 		firstName: 'Rizky',
 		lastName: 'Hasanuddin',
-		avatar: 'avatar-rizky-hasanuddin.webp',
+		avatar: 'avatar-rizky-hasanuddin',
 		notification: {
 			type: 'sent you a private message',
 			post: '',
@@ -60,12 +60,12 @@ export const users = [
 		id: 4,
 		firstName: 'Kimberly',
 		lastName: 'Smith',
-		avatar: 'avatar-kimberly-smith.webp',
+		avatar: 'avatar-kimberly-smith',
 		notification: {
 			type: 'commented on your picture',
 			post: '',
 			group: '',
-			picture: 'image-chess.webp',
+			picture: 'image-chess',
 			message: '',
 			time: '1 week ago',
 		},
@@ -74,7 +74,7 @@ export const users = [
 		id: 5,
 		firstName: 'Nathan',
 		lastName: 'Peterson',
-		avatar: 'avatar-nathan-peterson.webp',
+		avatar: 'avatar-nathan-peterson',
 		notification: {
 			type: 'reacted to your recient post',
 			post: 'end-game strategies to increase your win rate',
@@ -88,7 +88,7 @@ export const users = [
 		id: 6,
 		firstName: 'Anna',
 		lastName: 'Kim',
-		avatar: 'avatar-anna-kim.webp',
+		avatar: 'avatar-anna-kim',
 		notification: {
 			type: 'left the group',
 			post: '',

@@ -23,7 +23,7 @@ export function CardNotification({ user, countN }) {
 		<div className={`contentNotification ${newNotification}`} onClick={display}>
 			<div className="cardNotification ">
 				<div className="avatar">
-					<img src={`../../public/img/${avatar}`} alt={`${firstName} ${lastName}`} />
+					<img src={`../../public/img/${avatar}.jpg`} alt={`${firstName} ${lastName}`} />
 				</div>
 
 				<div className="info">
