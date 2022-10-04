@@ -1,0 +1,59 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100rem;
+}
+
+.notificationCount {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 210rem;
+}
+
+.notificationCount h1 {
+	font-size: 26rem;
+	font-weight: bold;
+}
+
+.count {
+	display: flex;
+	justify-content: center;
+	background-color: var(--azul);
+	font-weight: bold;
+	width: 30rem;
+	height: 25rem;
+	border-radius: 5rem;
+}
+
+.count p {
+	color: var(--blanco);
+}
+
+.markRead {
+	color: var(--azul-g);
+}
+
+.markRead:hover {
+	cursor: pointer;
+	color: var(--azul);
+}
+
+@media (max-width: 375px) {
+	.header {
+		height: 70rem;
+	}
+
+	.notificationCount {
+		width: 170rem;
+	}
+
+	.notificationCount h1 {
+		font-size: 20rem;
+	}
+
+	.notificationCount p {
+		font-size: 16rem;
+	}
+}

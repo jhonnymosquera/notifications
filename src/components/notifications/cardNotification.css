@@ -1,0 +1,133 @@
+#root {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (min-width: 376px) {
+	#root {
+		height: 100vh;
+	}
+}
+
+.contentNotification {
+	margin-bottom: 10rem;
+}
+
+.newNotification {
+	background-color: var(--azul-gmc);
+	border-radius: 5rem;
+	border: solid 1px var(--azul-gc2);
+}
+
+.newNotification:hover {
+	cursor: pointer;
+}
+
+.cardNotification {
+	padding: 10rem 0;
+	display: flex;
+	align-items: center;
+	padding-right: 10rem;
+}
+
+.hidden {
+	display: none;
+}
+
+.avatar {
+	width: 70rem;
+	height: 70rem;
+	padding: 7rem;
+	display: grid;
+	place-items: center;
+	margin-right: 10rem;
+}
+
+.avatar img {
+	width: 100%;
+}
+
+.info {
+	width: 100%;
+}
+
+.data-info span {
+	margin-right: 5rem;
+}
+
+.name {
+	font-weight: bold;
+}
+
+.name:hover,
+.post:hover {
+	color: var(--azul);
+	cursor: pointer;
+}
+
+.type {
+	font-weight: bold;
+	color: var(--azul-g);
+}
+
+.post {
+	font-weight: bold;
+	color: var(--azul-go);
+}
+
+.group {
+	font-weight: bold;
+	color: var(--azul);
+}
+
+.group:hover {
+	cursor: pointer;
+}
+
+.point {
+	display: none;
+}
+
+.point-block {
+	position: relative;
+	display: inline-block;
+	background-color: red;
+	border-radius: 100%;
+	width: 10rem;
+	height: 10rem;
+	top: -1rem;
+}
+
+.picture img {
+	border-radius: 5rem;
+	width: 75%;
+}
+
+.picture img:hover {
+	cursor: pointer;
+	border: solid 1px var(--azul-gc1);
+}
+
+.message {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10rem;
+}
+
+.message-text {
+	width: 80%;
+	padding: 20rem;
+	border: 1px solid var(--azul-g);
+	border-radius: 5rem;
+}
+
+.message-text:hover {
+	cursor: pointer;
+	background-color: var(--azul-gc1);
+}
+
+.time {
+	margin-top: 5rem;
+	color: var(--azul-g);
+}

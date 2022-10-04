@@ -1,0 +1,11 @@
+.container {
+	width: min(95%, 850rem);
+	padding: 20rem;
+	background-color: var(--blanco);
+
+	border-radius: 10rem;
+
+	-webkit-box-shadow: 0px 0px 6px -1px var(--azul-g);
+	-moz-box-shadow: 0px 0px 6px -1px var(--azul-g);
+	box-shadow: 0px 0px 6px -1px var(--azul-g);
+}
