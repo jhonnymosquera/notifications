@@ -121,6 +121,7 @@
 	padding: 20rem;
 	border: 1px solid var(--azul-g);
 	border-radius: 5rem;
+	color: var(--azul-g);
 }
 
 .message-text:hover {
