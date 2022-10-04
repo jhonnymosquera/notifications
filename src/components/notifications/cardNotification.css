@@ -4,12 +4,6 @@
 	align-items: center;
 }
 
-@media (min-width: 376px) {
-	#root {
-		height: 100vh;
-	}
-}
-
 .contentNotification {
 	margin-bottom: 10rem;
 }
