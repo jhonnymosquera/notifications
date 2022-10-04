@@ -46,7 +46,11 @@ export function CardNotification({ user, countN }) {
 				</div>
 
 				<div className={picture.length === 0 ? none : 'picture'}>
-					<img src={`../picture/${picture}.avif`} alt="picture" />
+					<picture>
+						<source srcset={`../picture/${picture}.avif`} type="image/avif" />
+						<source srcset={`../picture/${picture}.webp`} type="image/webp" />
+						<img src={`../picture/${picture}.jpg`} alt="picture" />
+					</picture>
 				</div>
 			</div>
 
