@@ -46,7 +46,7 @@ export function CardNotification({ user, countN }) {
 				</div>
 
 				<div className={picture.length === 0 ? none : 'picture'}>
-					<img src={`../picture/${picture}.jpg`} alt="picture" />
+					<img src={`../picture/${picture}.avif`} alt="picture" />
 				</div>
 			</div>
 
