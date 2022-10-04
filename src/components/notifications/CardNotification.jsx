@@ -24,9 +24,9 @@ export function CardNotification({ user, countN }) {
 			<div className="cardNotification ">
 				<div className="avatar">
 					<picture>
-						<source srcset={`../../public/img/${avatar}.avif`} type="image/avif" />
-						<source srcset={`../../public/img/${avatar}.webp`} type="image/webp" />
-						<img src={`../../public/img/${avatar}.jpg`} alt={`${firstName} ${lastName}`} />
+						<source srcset={`../img/${avatar}.avif`} type="image/avif" />
+						<source srcset={`../img/${avatar}.webp`} type="image/webp" />
+						<img src={`../img/${avatar}.jpg`} alt={`${firstName} ${lastName}`} />
 					</picture>
 				</div>
 
@@ -46,7 +46,7 @@ export function CardNotification({ user, countN }) {
 				</div>
 
 				<div className={picture.length === 0 ? none : 'picture'}>
-					<img src={`../../public/picture/${picture}`} alt="picture" />
+					<img src={`../picture/${picture}.jpg`} alt="picture" />
 				</div>
 			</div>
 
