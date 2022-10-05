@@ -1,9 +1,45 @@
+import img_mark_avif from '../assets/img/avatar-mark-webber.avif';
+import img_mark_jpg from '../assets/img/avatar-mark-webber.jpg';
+import img_mark_webp from '../assets/img/avatar-mark-webber.webp';
+
+import img_angela_avif from '../assets/img/avatar-angela-gray.avif';
+import img_angela_jpg from '../assets/img/avatar-angela-gray.jpg';
+import img_angela_webp from '../assets/img/avatar-angela-gray.webp';
+
+import img_jacob_avif from '../assets/img/avatar-jacob-thompson.avif';
+import img_jacob_jpg from '../assets/img/avatar-jacob-thompson.jpg';
+import img_jacob_webp from '../assets/img/avatar-jacob-thompson.webp';
+
+import img_rizky_avif from '../assets/img/avatar-rizky-hasanuddin.avif';
+import img_rizky_jpg from '../assets/img/avatar-rizky-hasanuddin.jpg';
+import img_rizky_webp from '../assets/img/avatar-rizky-hasanuddin.webp';
+
+import img_kimberly_avif from '../assets/img/avatar-kimberly-smith.avif';
+import img_kimberly_jpg from '../assets/img/avatar-kimberly-smith.jpg';
+import img_kimberly_webp from '../assets/img/avatar-kimberly-smith.webp';
+
+import img_nathan_avif from '../assets/img/avatar-nathan-peterson.avif';
+import img_nathan_jpg from '../assets/img/avatar-nathan-peterson.jpg';
+import img_nathan_webp from '../assets/img/avatar-nathan-peterson.webp';
+
+import img_anna_avif from '../assets/img/avatar-anna-kim.avif';
+import img_anna_jpg from '../assets/img/avatar-anna-kim.jpg';
+import img_anna_webp from '../assets/img/avatar-anna-kim.webp';
+
+import image_chess_avif from '../assets/picture/image-chess.avif';
+import image_chess_jpg from '../assets/picture/image-chess.jpg';
+import image_chess_webp from '../assets/picture/image-chess.webp';
+
 export const users = [
 	{
 		id: 0,
 		firstName: 'Mark',
 		lastName: 'Webber',
-		avatar: 'avatar-mark-webber',
+		avatar: {
+			avif: img_mark_avif,
+			jpg: img_mark_jpg,
+			webp: img_mark_webp,
+		},
 		notification: {
 			type: 'reacted to your recient post',
 			post: 'My first tournament today!',
@@ -17,7 +53,11 @@ export const users = [
 		id: 1,
 		firstName: 'Angela',
 		lastName: 'Gray',
-		avatar: 'avatar-angela-gray',
+		avatar: {
+			avif: img_angela_avif,
+			jpg: img_angela_jpg,
+			webp: img_angela_webp,
+		},
 		notification: {
 			type: 'followed you',
 			post: '',
@@ -31,7 +71,11 @@ export const users = [
 		id: 2,
 		firstName: 'Jacob',
 		lastName: 'Thompson',
-		avatar: 'avatar-jacob-thompson',
+		avatar: {
+			avif: img_jacob_avif,
+			jpg: img_jacob_jpg,
+			webp: img_jacob_webp,
+		},
 		notification: {
 			type: 'has joined your group',
 			post: '',
@@ -45,7 +89,11 @@ export const users = [
 		id: 3,
 		firstName: 'Rizky',
 		lastName: 'Hasanuddin',
-		avatar: 'avatar-rizky-hasanuddin',
+		avatar: {
+			avif: img_rizky_avif,
+			jpg: img_rizky_jpg,
+			webp: img_rizky_webp,
+		},
 		notification: {
 			type: 'sent you a private message',
 			post: '',
@@ -60,12 +108,20 @@ export const users = [
 		id: 4,
 		firstName: 'Kimberly',
 		lastName: 'Smith',
-		avatar: 'avatar-kimberly-smith',
+		avatar: {
+			avif: img_kimberly_avif,
+			jpg: img_kimberly_jpg,
+			webp: img_kimberly_webp,
+		},
 		notification: {
 			type: 'commented on your picture',
 			post: '',
 			group: '',
-			picture: 'image-chess',
+			picture: {
+				avif: image_chess_avif,
+				webp: image_chess_webp,
+				jpg: image_chess_jpg,
+			},
 			message: '',
 			time: '1 week ago',
 		},
@@ -74,7 +130,11 @@ export const users = [
 		id: 5,
 		firstName: 'Nathan',
 		lastName: 'Peterson',
-		avatar: 'avatar-nathan-peterson',
+		avatar: {
+			avif: img_nathan_avif,
+			jpg: img_nathan_jpg,
+			webp: img_nathan_webp,
+		},
 		notification: {
 			type: 'reacted to your recient post',
 			post: 'end-game strategies to increase your win rate',
@@ -88,7 +148,11 @@ export const users = [
 		id: 6,
 		firstName: 'Anna',
 		lastName: 'Kim',
-		avatar: 'avatar-anna-kim',
+		avatar: {
+			avif: img_anna_avif,
+			jpg: img_anna_jpg,
+			webp: img_anna_webp,
+		},
 		notification: {
 			type: 'left the group',
 			post: '',
