@@ -30,7 +30,7 @@ html {
 body {
 	font-size: 18rem;
 	font-family: var(--fuente);
-	background-color: var(--azul-gcm);
+	background-color: var(--azul-gmc);
 
 	display: flex;
 	flex-direction: column;
