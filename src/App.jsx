@@ -16,7 +16,7 @@ export function App() {
 
 	function allRead() {
 		notis.forEach((noti) => {
-			noti.classList.remove('newNotification');
+			noti.classList.replace('newNotification', 'border');
 		});
 
 		points.forEach((point) => {

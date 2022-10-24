@@ -4,7 +4,7 @@ import { App } from './App';
 import './normalize.css';
 import './index.css';
 
-import { ContextProviders } from './context/Context';
+import { ContextProviders } from './context';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>

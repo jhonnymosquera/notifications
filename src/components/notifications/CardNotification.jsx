@@ -9,7 +9,7 @@ export function CardNotification({ user, countN }) {
 	const [point, setPoint] = useState('point-block');
 
 	function display() {
-		setNewNotification('');
+		setNewNotification('border');
 		setPoint('');
 	}
 
@@ -24,9 +24,9 @@ export function CardNotification({ user, countN }) {
 			<div className="cardNotification ">
 				<div className="avatar">
 					<picture>
-						<source srcset={avatar.avif} type="image/avif" />
-						<source srcset={avatar.webp} type="image/webp" />
-						<img src={avatar.jpg} alt={`${firstName} ${lastName}`} />
+						<source srcSet={avatar.avif} type="image/avif" />
+						<source srcSet={avatar.webp} type="image/webp" />
+						<img srcSet={avatar.jpg} alt={`${firstName} ${lastName}`} />
 					</picture>
 				</div>
 
@@ -47,9 +47,9 @@ export function CardNotification({ user, countN }) {
 
 				<div className={picture.length === 0 ? none : 'picture'}>
 					<picture>
-						<source srcset={picture.avif} type="image/avif" />
-						<source srcset={picture.webp} type="image/webp" />
-						<img src={picture.jpg} alt="picture" />
+						<source srcSet={picture.avif} type="image/avif" />
+						<source srcSet={picture.webp} type="image/webp" />
+						<img srcSet={picture.jpg} alt="picture" />
 					</picture>
 				</div>
 			</div>

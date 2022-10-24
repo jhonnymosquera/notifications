@@ -33,9 +33,11 @@ body {
 	background-color: var(--azul-gcm);
 
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
 	align-items: center;
 	width: 100%;
+	min-height: 100vh;
+	height: auto;
 }
 
 h1 {
